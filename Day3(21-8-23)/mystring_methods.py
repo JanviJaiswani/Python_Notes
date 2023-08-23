@@ -29,5 +29,11 @@ print("isprintable:: ", ex3.isprintable()) #false for escape character
 print("swapcase:: " ,ex.swapcase()) #change the case
 print("startswith:: ", ex.startswith("This"))
 
+ex = "Janvi is learner"
+
+ex1 = ex.split(" ")
+
+print("_".join(ex1))
+
 
 
