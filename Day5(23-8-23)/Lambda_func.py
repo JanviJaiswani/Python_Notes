@@ -22,3 +22,4 @@ def myfunc(func, value):
 
 cube = lambda x: x * x * x
 print(myfunc(cube, 2))  # Output: 13
+
