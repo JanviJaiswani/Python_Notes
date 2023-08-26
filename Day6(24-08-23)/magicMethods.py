@@ -18,4 +18,6 @@ obj1 = MyClass([2000,3000])
 obj2 = MyClass([3000,3000])
 
 print(str(obj1))       # output:: instance with value: [2000, 3000]
-print(obj1 + obj2)     # output:: instance with value: [2000, 3000, 3000, 3000]
+print(obj1 + obj2) 
+# output:: instance with value: [2000, 3000, 3000, 3000]
+print(len(obj1))
